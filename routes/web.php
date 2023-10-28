@@ -21,6 +21,10 @@ Route::get('/users', function () {
     return view('users');
 });
 
+Route::get('/login', function () {
+    return view('login');
+});
+
 
 Route::post('/games', function () {
     return view('games');

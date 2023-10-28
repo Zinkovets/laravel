@@ -37,19 +37,9 @@
         margin: 10px;
     }
 
-    .login {
-        width: 100px;
-        margin-bottom: 10px;
-    }
-
-    .pass {
-        width: 100px;
-        margin-bottom: 10px;
-    }
-
     .but {
         width: 100px;
-        margin-bottom: 10px;
+        margin-bottom: 1px;
     }
 
     .arrow {
@@ -71,9 +61,7 @@
 
 <div class="header">
     <div class="bar">
-        <input class="login" type="login" placeholder="Login">
-        <input class="pass" type="password" placeholder="Passsword">
-        <input class="but" type="submit" placeholder="Submit">
+        <a href="/login"><button>Login</button></a>
     </div>
 </div>
 
